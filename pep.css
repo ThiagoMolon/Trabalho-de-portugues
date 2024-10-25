@@ -1,0 +1,32 @@
+:root{
+    --pgb:#f8f1e3;
+    --pc:black;
+    --img:25%;
+}
+
+.pbg{
+    background-color: var(--pgb);
+    box-shadow: 0 0 20px 0 black ;
+    padding: 150px;
+    color: var(--pc);
+    padding-bottom: 85px;
+}
+
+table, tr, td{
+    border: 1px #777 solid;
+    text-align: center  ;
+}
+
+table{    
+    margin: 20px 25% 0 25%;
+}
+
+.artista img{
+    height: var(--img);
+    width: var(--img);
+    float: right;
+    border-radius: 10px;
+    margin: 0  0  0 10px;
+}
+
+

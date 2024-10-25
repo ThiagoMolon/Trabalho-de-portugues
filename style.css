@@ -110,7 +110,10 @@ footer{
     background-color: var(--ft-bg-color);
     color: var(--ft-color);
     margin-top: 300px;
+    display: flex;
+    justify-content: center;
 }
+
 footer span{
     padding: 20px;
     display: flex;
